@@ -3,7 +3,7 @@ import KSQuadTreePackage
 import KSGeometryPackage
 import KSPinClusterManagerPackage
 
-class Map {
+class MapModel {
     
     let clusterManager: ClusterManager
     
