@@ -1,15 +1,15 @@
 //
-//  MapClusteringDemoTests.swift
-//  MapClusteringDemoTests
+//  MapClustersTests.swift
+//  MapClustersTests
 //
-//  Created by Keith Staines on 27/06/2020.
+//  Created by Keith Staines on 25/05/2020.
 //  Copyright © 2020 Keith Staines. All rights reserved.
 //
 
 import XCTest
 @testable import MapClusteringDemo
 
-class MapClusteringDemoTests: XCTestCase {
+class MapClustersTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

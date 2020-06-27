@@ -3,17 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		53DDB2D424A7983800C70AF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2D324A7983800C70AF8 /* AppDelegate.swift */; };
 		53DDB2D624A7983800C70AF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2D524A7983800C70AF8 /* SceneDelegate.swift */; };
-		53DDB2D824A7983800C70AF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2D724A7983800C70AF8 /* ViewController.swift */; };
 		53DDB2DB24A7983800C70AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DDB2D924A7983800C70AF8 /* Main.storyboard */; };
 		53DDB2DD24A7983900C70AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DDB2DC24A7983900C70AF8 /* Assets.xcassets */; };
 		53DDB2E024A7983900C70AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DDB2DE24A7983900C70AF8 /* LaunchScreen.storyboard */; };
-		53DDB2EB24A7983A00C70AF8 /* MapClusteringDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2EA24A7983A00C70AF8 /* MapClusteringDemoTests.swift */; };
+		53DDB2F724A7985700C70AF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 53DDB2F524A7985700C70AF8 /* README.md */; };
+		53DDB2F824A7985700C70AF8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 53DDB2F624A7985700C70AF8 /* .gitignore */; };
+		53DDB2FC24A798AE00C70AF8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2F924A798AE00C70AF8 /* Map.swift */; };
+		53DDB2FD24A798AE00C70AF8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2FA24A798AE00C70AF8 /* MapViewController.swift */; };
+		53DDB2FE24A798AE00C70AF8 /* PinGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2FB24A798AE00C70AF8 /* PinGenerator.swift */; };
+		53DDB30024A798BF00C70AF8 /* Geography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB2FF24A798BF00C70AF8 /* Geography.swift */; };
+		53DDB30224A798FB00C70AF8 /* MapClustersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB30124A798FB00C70AF8 /* MapClustersTests.swift */; };
+		53DDB30524A7994F00C70AF8 /* KSGeometryPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 53DDB30424A7994F00C70AF8 /* KSGeometryPackage */; };
+		53DDB30824A7996E00C70AF8 /* KSQuadTreePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 53DDB30724A7996E00C70AF8 /* KSQuadTreePackage */; };
+		53DDB30B24A7998A00C70AF8 /* KSPinClusterManagerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 53DDB30A24A7998A00C70AF8 /* KSPinClusterManagerPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +38,19 @@
 		53DDB2D024A7983800C70AF8 /* MapClusteringDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapClusteringDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DDB2D324A7983800C70AF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53DDB2D524A7983800C70AF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53DDB2D724A7983800C70AF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53DDB2DA24A7983800C70AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53DDB2DC24A7983900C70AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53DDB2DF24A7983900C70AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53DDB2E124A7983900C70AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53DDB2E624A7983A00C70AF8 /* MapClusteringDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapClusteringDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		53DDB2EA24A7983A00C70AF8 /* MapClusteringDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapClusteringDemoTests.swift; sourceTree = "<group>"; };
 		53DDB2EC24A7983A00C70AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DDB2F524A7985700C70AF8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		53DDB2F624A7985700C70AF8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		53DDB2F924A798AE00C70AF8 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		53DDB2FA24A798AE00C70AF8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		53DDB2FB24A798AE00C70AF8 /* PinGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinGenerator.swift; sourceTree = "<group>"; };
+		53DDB2FF24A798BF00C70AF8 /* Geography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geography.swift; sourceTree = "<group>"; };
+		53DDB30124A798FB00C70AF8 /* MapClustersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapClustersTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DDB30824A7996E00C70AF8 /* KSQuadTreePackage in Frameworks */,
+				53DDB30524A7994F00C70AF8 /* KSGeometryPackage in Frameworks */,
+				53DDB30B24A7998A00C70AF8 /* KSPinClusterManagerPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +77,8 @@
 		53DDB2C724A7983800C70AF8 = {
 			isa = PBXGroup;
 			children = (
+				53DDB2F624A7985700C70AF8 /* .gitignore */,
+				53DDB2F524A7985700C70AF8 /* README.md */,
 				53DDB2D224A7983800C70AF8 /* MapClusteringDemo */,
 				53DDB2E924A7983A00C70AF8 /* MapClusteringDemoTests */,
 				53DDB2D124A7983800C70AF8 /* Products */,
@@ -79,9 +97,12 @@
 		53DDB2D224A7983800C70AF8 /* MapClusteringDemo */ = {
 			isa = PBXGroup;
 			children = (
+				53DDB2FF24A798BF00C70AF8 /* Geography.swift */,
+				53DDB2F924A798AE00C70AF8 /* Map.swift */,
+				53DDB2FA24A798AE00C70AF8 /* MapViewController.swift */,
+				53DDB2FB24A798AE00C70AF8 /* PinGenerator.swift */,
 				53DDB2D324A7983800C70AF8 /* AppDelegate.swift */,
 				53DDB2D524A7983800C70AF8 /* SceneDelegate.swift */,
-				53DDB2D724A7983800C70AF8 /* ViewController.swift */,
 				53DDB2D924A7983800C70AF8 /* Main.storyboard */,
 				53DDB2DC24A7983900C70AF8 /* Assets.xcassets */,
 				53DDB2DE24A7983900C70AF8 /* LaunchScreen.storyboard */,
@@ -93,7 +114,7 @@
 		53DDB2E924A7983A00C70AF8 /* MapClusteringDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				53DDB2EA24A7983A00C70AF8 /* MapClusteringDemoTests.swift */,
+				53DDB30124A798FB00C70AF8 /* MapClustersTests.swift */,
 				53DDB2EC24A7983A00C70AF8 /* Info.plist */,
 			);
 			path = MapClusteringDemoTests;
@@ -115,6 +136,11 @@
 			dependencies = (
 			);
 			name = MapClusteringDemo;
+			packageProductDependencies = (
+				53DDB30424A7994F00C70AF8 /* KSGeometryPackage */,
+				53DDB30724A7996E00C70AF8 /* KSQuadTreePackage */,
+				53DDB30A24A7998A00C70AF8 /* KSPinClusterManagerPackage */,
+			);
 			productName = MapClusteringDemo;
 			productReference = 53DDB2D024A7983800C70AF8 /* MapClusteringDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +178,7 @@
 					};
 					53DDB2E524A7983A00C70AF8 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 						TestTargetID = 53DDB2CF24A7983800C70AF8;
 					};
 				};
@@ -165,6 +192,11 @@
 				Base,
 			);
 			mainGroup = 53DDB2C724A7983800C70AF8;
+			packageReferences = (
+				53DDB30324A7994F00C70AF8 /* XCRemoteSwiftPackageReference "KSGeometryPackage" */,
+				53DDB30624A7996E00C70AF8 /* XCRemoteSwiftPackageReference "KSQuadTreePackage" */,
+				53DDB30924A7998A00C70AF8 /* XCRemoteSwiftPackageReference "KSPinClusterManagerPackage" */,
+			);
 			productRefGroup = 53DDB2D124A7983800C70AF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,8 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DDB2F824A7985700C70AF8 /* .gitignore in Resources */,
 				53DDB2E024A7983900C70AF8 /* LaunchScreen.storyboard in Resources */,
 				53DDB2DD24A7983900C70AF8 /* Assets.xcassets in Resources */,
+				53DDB2F724A7985700C70AF8 /* README.md in Resources */,
 				53DDB2DB24A7983800C70AF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DDB2D824A7983800C70AF8 /* ViewController.swift in Sources */,
 				53DDB2D424A7983800C70AF8 /* AppDelegate.swift in Sources */,
+				53DDB2FC24A798AE00C70AF8 /* Map.swift in Sources */,
+				53DDB30024A798BF00C70AF8 /* Geography.swift in Sources */,
 				53DDB2D624A7983800C70AF8 /* SceneDelegate.swift in Sources */,
+				53DDB2FD24A798AE00C70AF8 /* MapViewController.swift in Sources */,
+				53DDB2FE24A798AE00C70AF8 /* PinGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DDB2EB24A7983A00C70AF8 /* MapClusteringDemoTests.swift in Sources */,
+				53DDB30224A798FB00C70AF8 /* MapClustersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +436,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NB5Q9333BS;
 				INFOPLIST_FILE = MapClusteringDemoTests/Info.plist;
@@ -410,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.keith27staines.MapClusteringDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapClusteringDemo.app/MapClusteringDemo";
@@ -421,6 +460,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NB5Q9333BS;
 				INFOPLIST_FILE = MapClusteringDemoTests/Info.plist;
@@ -469,6 +509,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53DDB30324A7994F00C70AF8 /* XCRemoteSwiftPackageReference "KSGeometryPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/keith27staines/KSGeometryPackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		53DDB30624A7996E00C70AF8 /* XCRemoteSwiftPackageReference "KSQuadTreePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/keith27staines/KSQuadTreePackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		53DDB30924A7998A00C70AF8 /* XCRemoteSwiftPackageReference "KSPinClusterManagerPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/keith27staines/KSPinClusterManagerPackage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53DDB30424A7994F00C70AF8 /* KSGeometryPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53DDB30324A7994F00C70AF8 /* XCRemoteSwiftPackageReference "KSGeometryPackage" */;
+			productName = KSGeometryPackage;
+		};
+		53DDB30724A7996E00C70AF8 /* KSQuadTreePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53DDB30624A7996E00C70AF8 /* XCRemoteSwiftPackageReference "KSQuadTreePackage" */;
+			productName = KSQuadTreePackage;
+		};
+		53DDB30A24A7998A00C70AF8 /* KSPinClusterManagerPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53DDB30924A7998A00C70AF8 /* XCRemoteSwiftPackageReference "KSPinClusterManagerPackage" */;
+			productName = KSPinClusterManagerPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53DDB2C824A7983800C70AF8 /* Project object */;
 }
