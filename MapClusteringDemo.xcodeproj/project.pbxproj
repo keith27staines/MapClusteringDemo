@@ -22,6 +22,7 @@
 		53DDB30524A7994F00C70AF8 /* KSGeometryPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 53DDB30424A7994F00C70AF8 /* KSGeometryPackage */; };
 		53DDB30824A7996E00C70AF8 /* KSQuadTreePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 53DDB30724A7996E00C70AF8 /* KSQuadTreePackage */; };
 		53DDB30B24A7998A00C70AF8 /* KSPinClusterManagerPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 53DDB30A24A7998A00C70AF8 /* KSPinClusterManagerPackage */; };
+		53DDB30E24A79A0000C70AF8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DDB30C24A79A0000C70AF8 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		53DDB2FB24A798AE00C70AF8 /* PinGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinGenerator.swift; sourceTree = "<group>"; };
 		53DDB2FF24A798BF00C70AF8 /* Geography.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geography.swift; sourceTree = "<group>"; };
 		53DDB30124A798FB00C70AF8 /* MapClustersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapClustersTests.swift; sourceTree = "<group>"; };
+		53DDB30C24A79A0000C70AF8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		53DDB2D224A7983800C70AF8 /* MapClusteringDemo */ = {
 			isa = PBXGroup;
 			children = (
+				53DDB30C24A79A0000C70AF8 /* Extensions.swift */,
 				53DDB2FF24A798BF00C70AF8 /* Geography.swift */,
 				53DDB2F924A798AE00C70AF8 /* Map.swift */,
 				53DDB2FA24A798AE00C70AF8 /* MapViewController.swift */,
@@ -240,6 +243,7 @@
 				53DDB2D624A7983800C70AF8 /* SceneDelegate.swift in Sources */,
 				53DDB2FD24A798AE00C70AF8 /* MapViewController.swift in Sources */,
 				53DDB2FE24A798AE00C70AF8 /* PinGenerator.swift in Sources */,
+				53DDB30E24A79A0000C70AF8 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
